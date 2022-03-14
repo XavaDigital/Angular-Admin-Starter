@@ -1,2 +1,2 @@
-# angular-material-admin-starter
- Project starter for admin app using ANgular
+# Angular Admin Starter
+ Project starter for admin app using Angular
