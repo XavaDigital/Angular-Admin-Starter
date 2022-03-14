@@ -1,0 +1,120 @@
+.card-signup {
+  border-radius: $border-radius-base * 2;
+  @include shadow-16dp();
+  margin-bottom: 100px;
+  padding: 0px 0px 40px;
+  margin-top: 15vh;
+
+  .info {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 0px;
+
+    .info-title {
+      color: #3c4858;
+      margin: 30px 0 15px;
+    }
+  }
+
+  .form-check {
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    label {
+      margin-left: 27px;
+    }
+
+    .checkbox-material {
+      padding-right: 20px;
+    }
+    a {
+      color: $brand-primary;
+    }
+  }
+
+  .info-horizontal {
+    .icon {
+      float: left;
+      margin-top: 24px;
+      margin-right: 10px;
+
+      i {
+        font-size: 2.6em;
+      }
+
+      &.icon-primary {
+        color: $brand-primary;
+      }
+      &.icon-info {
+        color: $brand-info;
+      }
+      &.icon-success {
+        color: $brand-success;
+      }
+      &.icon-warning {
+        color: $brand-warning;
+      }
+      &.icon-danger {
+        color: $brand-danger;
+      }
+      &.icon-rose {
+        color: $brand-rose;
+      }
+    }
+
+    .description {
+      overflow: hidden;
+    }
+  }
+
+  .form-group {
+    margin: 27px 0 0 7px;
+    padding-bottom: 0;
+  }
+  .card-header {
+    // @include shadow-big();
+
+    margin-top: -40px;
+    padding: 20px 0;
+    margin-bottom: 15px;
+  }
+  .text-divider {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .card-body {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .form-check {
+    // padding-top: 27px;
+
+    label {
+      margin-left: 18px;
+    }
+    .form-check-sign {
+      padding-right: 27px;
+      left: 27px;
+    }
+  }
+
+  .social-line {
+    margin-top: $bmd-label-top-margin-base;
+    text-align: center;
+    padding: 0;
+
+    .btn {
+      color: $white-color;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  .btn {
+    margin-bottom: 15px;
+  }
+}
+
+.card-login {
+  padding-bottom: 40px;
+}

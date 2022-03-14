@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         },
         "@schematics/angular:application": {
           "strict": true
@@ -31,9 +31,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/assets/css/demo.css",
+              "src/assets/scss/material-dashboard.scss"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.js","node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js"]
           },
           "configurations": {
             "production": {
@@ -99,9 +101,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+
+              "src/assets/css/demo.css",
+              "src/assets/scss/material-dashboard.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js","node_modules/popper.js/dist/umd/popper.js","node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js"
+            ]
           }
         }
       }
